@@ -1,0 +1,65 @@
+[PASS] 2D - constructor mặc định
+[PASS] 2D - constructor có tham số
+[PASS] 2D - getter/setter
+[PASS] 2D - số chiều
+[PASS] 2D - khoảng cách 3-4-5
+[PASS] 2D - hai điểm trùng nhau
+[PASS] 2D - tọa độ âm
+[PASS] 2D - tọa độ thập phân
+[PASS] 2D - khoảng cách AB bằng BA
+[PASS] 2D - đối xứng tạo đối tượng mới, không sửa điểm gốc
+[PASS] 2D - đối xứng hai lần
+[PASS] 2D - tịnh tiến
+[PASS] 2D - tịnh tiến bằng không
+[PASS] 2D - từ chối NaN
+[PASS] 2D - từ chối vô cực
+[PASS] 2D - setter sai không đổi dữ liệu
+[PASS] 2D - delta sai không tịnh tiến dở dang
+[PASS] 2D - phát hiện tràn tọa độ khi tịnh tiến
+[PASS] 2D - hypot xử lý số lớn không bình phương trực tiếp
+[PASS] 2D - không tính lẫn điểm 3D
+[PASS] 2D - không tính với null
+[PASS] 2D - chuẩn hóa âm không khi đối xứng
+[PASS] 3D - constructor mặc định
+[PASS] 3D - constructor có tham số
+[PASS] 3D - kế thừa getter/setter x y, bổ sung z
+[PASS] 3D - số chiều
+[PASS] 3D - khoảng cách dùng đủ ba tọa độ
+[PASS] 3D - chỉ khác z
+[PASS] 3D - khoảng cách qua tham chiếu lớp cha
+[PASS] 3D - đối xứng ghi đè, giữ đúng kiểu 3D
+[PASS] 3D - đối xứng hai lần
+[PASS] 3D - tịnh tiến ba tham số
+[PASS] 3D - tịnh tiến hai tham số kế thừa giữ z
+[PASS] 3D - từ chối tọa độ z vô cực
+[PASS] 3D - deltaZ sai không đổi x y
+[PASS] 3D - deltaY sai không đổi z
+[PASS] 3D - tràn z không thay đổi x y
+[PASS] 3D - không tính lẫn điểm 2D
+[PASS] 3D - không tính với null
+[PASS] 3D - toString có tọa độ z
+[PASS] Danh sách - rỗng
+[PASS] Danh sách - mỗi loại chỉ một điểm
+[PASS] Danh sách - ba điểm 2D cộng đủ mọi cặp
+[PASS] Danh sách - ba điểm 3D cộng đủ mọi cặp
+[PASS] Danh sách - xen kẽ 2D/3D, tổng 20 và 12
+[PASS] Danh sách - 3D không bị tính vào nhóm 2D
+[PASS] Danh sách - không phụ thuộc thứ tự
+[PASS] Danh sách - các điểm trùng vẫn là phần tử riêng
+[PASS] Danh sách - thêm đối xứng từ 6 thành 12 điểm
+[PASS] Danh sách - đối xứng đúng kiểu, đúng tọa độ, giữ nguyên gốc
+[PASS] Danh sách - điểm đối xứng không dùng chung đối tượng với gốc
+[PASS] Danh sách - gốc tọa độ vẫn được thêm đối xứng mới
+[PASS] Danh sách - gọi thêm đối xứng hai lần
+[PASS] Danh sách - tính lại tổng sau đối xứng
+[PASS] Danh sách - không cho thêm null
+[PASS] Danh sách - bảo vệ cấu trúc danh sách trả về
+[PASS] Nhập liệu - số nguyên sai thì nhập lại
+[PASS] Nhập liệu - dấu phẩy thập phân
+[PASS] Nhập liệu - NaN, Infinity, chữ được yêu cầu nhập lại
+[PASS] Nhập liệu - khoảng trắng
+[PASS] Nhập liệu - hết luồng nhập không lặp vô hạn
+[PASS] Đối chiếu 200 cặp 2D và 200 cặp 3D với công thức độc lập
+[PASS] Tổng mọi cặp đối chiếu độc lập trên 40 điểm hỗn hợp
+
+KẾT QUẢ: 63/63 kiểm thử thành công.

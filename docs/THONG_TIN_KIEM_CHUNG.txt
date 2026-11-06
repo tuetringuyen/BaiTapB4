@@ -1,0 +1,40 @@
+THÔNG TIN KIỂM CHỨNG PROJECT
+Ngày tạo: 06/11/2026
+
+Môi trường chạy thực tế: Linux, openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)
+
+Biên dịch toàn bộ mã nguồn chính và mã kiểm thử:
+  javac --release 17 -encoding UTF-8 -Xlint:all -Werror
+Kết quả: thành công; không có cảnh báo; bytecode major version 61 (Java 17).
+
+Kiểm thử logic bằng KiemThu.main(): 63/63 thành công.
+Chi tiết: KET_QUA_KIEM_THU.txt.
+Trong đó có kiểm thử đối chiếu 200 cặp 2D và 200 cặp 3D, cùng một danh sách
+40 điểm hỗn hợp, với công thức được tính độc lập.
+
+Kiểm thử tích hợp menu/console: 10/10 thành công.
+[PASS] Main --demo chạy đủ 3 bài
+[PASS] Menu 4 chạy mẫu rồi 0 thoát
+[PASS] Bài 1 nhập bàn phím
+[PASS] Bài 2 nhập bàn phím
+[PASS] Bài 3 nhập 6 điểm xen kẽ
+[PASS] Bài 3 danh sách rỗng
+[PASS] Menu sai lựa chọn yêu cầu nhập lại
+[PASS] EOF dừng an toàn
+[PASS] Nhập số sai, NaN, Infinity và dấu phẩy
+[PASS] Menu bắt lỗi tràn tọa độ và vẫn cho thoát
+
+Script chay.sh: đã chạy thực tế các chế độ demo và test thành công.
+pom.xml: đã kiểm tra cú pháp XML và cấu hình release 17.
+
+Giới hạn kiểm chứng:
+- Chưa trực tiếp mở giao diện IntelliJ IDEA trong môi trường này.
+- Chưa chạy Maven vì môi trường kiểm chứng không cài Maven và không tải được qua mạng.
+  Việc biên dịch/kiểm thử thực tế sử dụng trực tiếp javac/java, không giả lập kết quả Maven.
+- Script chay.bat được cung cấp cho Windows nhưng chưa chạy trên hệ điều hành Windows.
+- Chưa chạy trên một runtime JDK 17 riêng; đã biên dịch đúng đích Java 17 và chạy trên JDK 21.
+
+Project sử dụng cấu trúc Maven tiêu chuẩn để IntelliJ nhận diện thư mục nguồn.
+Ứng dụng và bộ kiểm thử không phụ thuộc thư viện ngoài.
